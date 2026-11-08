@@ -28,9 +28,9 @@ ro-membrane-ml-validation/
 
 ## Data
 
-The processed dataset contains 976 observations. The supplied split contains 780 training rows and 196 test rows. Each file includes the target column `A_over_B`.
+The processed dataset contains 1,090 observations downloaded from the current Open Membrane Database JSON source. The reproducible split contains 872 training rows and 218 test rows. Each file includes the target column `A_over_B`.
 
-The combined training and test rows match the full processed dataset as a multiset. See [`data/README.md`](data/README.md) for the file contract and cautions.
+The combined training and test rows match the full processed dataset as a multiset. See [`data/README.md`](data/README.md) and [`data/source_manifest.json`](data/source_manifest.json) for the source, file contract, split settings, and source hash.
 
 ## Run the notebook
 
