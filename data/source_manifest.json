@@ -1,0 +1,13 @@
+{
+  "source_url": "https://raw.githubusercontent.com/Open-Membrane-Database/membranes/main/membranes.json",
+  "source_sha256": "9fc4cbbbf090b67076624f26efcbe14e0b7d074d6237d4443d41922a57039daa",
+  "source_records": 1090,
+  "output_columns": 59,
+  "train_rows": 872,
+  "test_rows": 218,
+  "test_size": 0.2,
+  "random_seed": 42,
+  "cp_missing_source_rows": 20,
+  "cp_imputation": "mean computed from training partition only",
+  "cp_training_mean": 1.4293490004823013
+}
